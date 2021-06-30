@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+$font: 'Roboto';
+$color: white;
+
+body {
+    background-color: rebeccapurple;
+}
+
+.wrapper h1 {
+    font-family: $font;
+    color: $color;
+    font-size: 5em;
+    text-align: center;
+}
