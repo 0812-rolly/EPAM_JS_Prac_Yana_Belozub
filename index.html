@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/styles.css">
-    <title>Hello Page</title>
+    <script src="https://kit.fontawesome.com/800563b975.js" crossorigin="anonymous"></script>
+    <title>Voice Station</title>
 </head>
-<body>
-    <div class="wrapper">
-        <h1>Hello Page</h1>
-    </div>
 
+<body>
+    <div class="main_screen">
+        <div id="allVoices" class="changingText">
+            <ul id="voiceList"></ul>
+        </div>
+    </div>
+    <div id="microphone" class="changingText">
+        <h1>Active: speaker-mode</h1>
+    </div>
+    <div id="stream" class="changingText">
+        <h1>Active: stream</h1>
+    </div>
+    <div class="mode_panel">
+        <div class="modes">
+            <button id="playlist" class="btn">
+                <i class="fas fa-list"></i>
+                All voices
+            </button>
+            <button id="micro" class="btn">
+                <i class="fas fa-microphone"></i>
+                Microphone
+            </button>
+            <button id="stream" class="btn">
+                <i class="fas fa-volume-up"></i>
+                Stream
+            </button>
+        </div>
+    </div>
 </body>
+
 </html>
