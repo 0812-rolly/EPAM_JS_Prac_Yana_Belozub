@@ -1,9 +1,10 @@
 import './styles/index.scss'
 
-let chngText = document.getElementById('chngText')
-let btnAllVoices = document.getElementById('playlist')
-let btnMicro = document.getElementById('micro')
-let btnStream = document.getElementById('stream')
+const chngText = document.getElementById('chngText')
+
+const btnAllVoices = document.getElementById('playlist')
+const btnMicro = document.getElementById('micro')
+const btnStream = document.getElementById('stream')
 
 const activeColor = "#4d74dd"
 
