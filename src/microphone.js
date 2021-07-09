@@ -12,7 +12,7 @@ export function handleMicroClick() {
         recordBtn.style.color = 'dimgray'
     }
     else{
-        recordBtn.style.color = 'orange'
+        recordBtn.style.color = '#4d74dd'
         recordBtn.classList.toggle('recording')
         recordMessage()
     }

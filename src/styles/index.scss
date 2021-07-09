@@ -64,7 +64,7 @@ body {
     font-size: 100px;
 }
 
-.recBtn {
+.recordBtn {
     margin: 0;
     position: absolute;
     top: 30%;
@@ -73,7 +73,21 @@ body {
     transform: translate(-50%, -50%);
     border: none;
     outline: none;
-    color: dimgray;
+    color: rgb(228, 228, 228);
     background-color: white;
     transition: color 0.1s ease-in-out;
-  }
+}
+
+.voice_message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font;
+    color: $font_color;
+    font-size: 30px;
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    outline: none;
+}
