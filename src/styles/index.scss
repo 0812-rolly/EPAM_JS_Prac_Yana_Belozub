@@ -59,3 +59,21 @@ body {
 .btn:hover {
     color: $hover_color;
 }
+
+.microIcon {
+    font-size: 100px;
+}
+
+.recBtn {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    color: dimgray;
+    background-color: white;
+    transition: color 0.1s ease-in-out;
+  }
